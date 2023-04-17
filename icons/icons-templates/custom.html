@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>Context Test</title>
+    </head>
+    <body>
+        <h1 style="text-align: center"><%= homeHeading %>
+            <br><small>v<%= version %></small>
+        </h1>
+        <ul>
+        	<% for (var i = 0; i < glyphs.length; i++) { %>
+        	<li><a href="#"><%= glyphs[i] %></a></li>
+        	<% } %>
+        </ul>
+    </body>
+</html>

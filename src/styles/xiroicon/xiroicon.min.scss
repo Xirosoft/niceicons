@@ -1,0 +1,10 @@
+@import '../xiroicon';
+
+.xiroicon {
+  @extend .ligature-icons;
+}
+.rotate {
+  &-45 {
+    transform: rotate(45deg);
+  }
+}

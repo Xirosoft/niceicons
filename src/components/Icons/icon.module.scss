@@ -1,0 +1,37 @@
+@use '../../styles/media-query' as *;
+
+.icon {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 8px;
+  padding: 8px 4px;
+  font-size: var(--icon-size, 33px);
+  text-align: center;
+  background-color: var(--icon-bg, #ffe5ec40);
+  color: var(--icon-color, #a781c9);
+  border: 1px solid var(--icon-border, #ffc2d140);
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 500ms ease-in-out;
+  box-shadow: 0 0 16px rgba(#000, 0.05);
+  &:hover {
+    background-color: var(--icon-bg-hover, #e2eafc);
+    border-color: var(--icon-border-hover, #00a6fb)
+  }
+  &__title {
+    font-size: 13px;
+    font-weight: 300;
+    text-align: center;
+    color: #ab94c1;
+    position: absolute;
+    top: 60%;
+    width: calc(100% - 12px);
+    @include respond(tabland) {
+      font-size: 12px;
+    }
+  }
+}

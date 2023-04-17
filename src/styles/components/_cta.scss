@@ -1,0 +1,10 @@
+.swiper-pagination {
+  padding: 0px clamp(32px, 2.5vw, 50px);
+  text-align: right !important;
+  bottom: 40px !important;
+  margin: auto !important;
+  @include respond(phone) {
+    text-align: left !important;
+    bottom: 32px !important;
+  }
+}
