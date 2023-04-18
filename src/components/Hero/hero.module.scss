@@ -27,6 +27,7 @@
       font-size: 42px;
       line-height: 1.25;
       text-transform: capitalize;
+      color: var(--heading);
 
       @include respond(tabport) {
         font-size: 36px;
@@ -36,11 +37,12 @@
       }
     }
     .desc {
-      font-size: 24px;
+      font-size: 22px;
       line-height: 1.35;
       margin-top: 16px;
-      letter-spacing: 0.05em;
-      opacity: 0.6;
+      letter-spacing: 0.01em;
+      // opacity: 0.6;
+      color: var(--content);
       @include respond(tabport) {
         font-size: 20px;
       }
@@ -78,12 +80,12 @@
         min-width: initial;
       }
       &:hover {
-        background-color: darken(#953de6, 10);
+        background-color: darken(#47be7d, 10);
       }
       &:last-of-type {
         background-color: var(--heading);
         &:hover {
-          background-color: darken(#574c61, 10);
+          background-color: darken(#191c32, 10);
         }
       }
     }

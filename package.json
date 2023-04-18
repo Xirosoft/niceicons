@@ -8,8 +8,8 @@
     "start": "next start",
     "export": "next export",
     "lint": "next lint",
-    "font": "grunt webfont && node jsonbuilder.js",
-    "font:css": "node-sass --output-style compressed src/styles/xiroicon/xiroicon.min.scss -o public/font/ && postcss public/font/xiroicon.css -c postcss.config.js -d public/font/"
+    "font": "grunt webfont --force && node jsonbuilder.js",
+    "font:css": "node-sass --output-style compressed src/styles/xiroicon/xiroicon.min.scss -o public/icon/ && postcss public/icon/xiroicon.min.css -c postcss.config.js -d public/icon/"
   },
   "dependencies": {
     "next": "13.2.4",

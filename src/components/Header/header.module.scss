@@ -21,14 +21,14 @@
     justify-content: flex-end;
     gap: 8px;
     &__btn {
-      width: 48px;
-      aspect-ratio: 1.35/1;
+      width: 36px;
+      aspect-ratio: 1.15/1;
       display: flex;
       justify-content: center;
       align-items: center;
-      color: #000;
+      color: var(--primary);
       border-radius: 4px;
-      background-color: rgba(#000, 0.05);
+      background-color: rgba(#000, 0);
       font-size: 20px;
       transition: background-color 300ms ease-in-out;
       @include respond(phone) {
@@ -37,7 +37,7 @@
         aspect-ratio: 1.15/1;
       }
       &:hover {
-        background-color: rgba(#000, 0.1);
+        background-color: rgba(63,66,84,0.1);
       }
     }
   }
@@ -71,6 +71,12 @@
     }
     &__sticky {
       background-color: var(--header-sticky-bg);
+      .nav__brand {
+        filter: brightness(0) invert(1);
+      }
+      .nav__meta__btn {
+        color: #fff;
+      }
     }
   }
 }

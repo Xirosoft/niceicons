@@ -1,11 +1,11 @@
 .code {
-  background-color: var(--body-bg, #f5f7fc) !important;
+  background-color: var(--code-bg);
   font-size: 14px;
   font-weight: 100;
-  font-family: 'JetBrains Mono', monospace;;
+  font-family: var(--mono);
   line-height: 1.5;
   tab-size: 2;
-  color: var(--icon-title-color);
+  color: var(--content);
   padding: 8px;
   margin: 0.5em 0px;
   border-radius: 4px;
@@ -23,7 +23,7 @@
     &__btn {
       width: 32px;
       height: 32px;
-      background-color: var(--icon-hover);
+      background-color: #fff;
       color: var(--primary);
       display: inline-flex;
       justify-content: center;
@@ -35,6 +35,7 @@
       transition: all 300ms ease-in-out;
       &:hover {
         background-color: var(--header-sticky-bg);
+        color: #fff;
       }
     }
   }

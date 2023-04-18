@@ -1,25 +1,33 @@
 :root {
-  --primary: #953de6;
-  --header-bg: #e2dbf8;
-  --header-sticky-bg: #d3caf1;
-  --body-bg: #f5f7fc;
+  // fonts
+  --proza: 'Proza Libre', sans-serif;
+  --mono: 'JetBrains Mono', monospace;
+  --montserrat: 'Montserrat', sans-serif;
+
+  --primary: #47be7d;
+  --header-bg: #fff;
+  --header-sticky-bg: #47be7d;
+  --body-bg: #F8F9FB;
+  --heading: #3f4254;
+  // --heading2: #47be7d;
+  --content: #8491A5;
+  --link: #3f3f3f;
+  --code-bg: #f2f5f9;
+  // icons
   --icon-width: 100px;
   --icon-size: 32px;
-  --icon-color: #574c61;
-  --icon-title-color: #878787;
+  --icon-color: #09244B;
+  --icon-title-color: var(--content);
   --icon-bg: #fff;
-  --icon-bg-hover: #953de608;
+  --icon-bg-hover: #47be7d;
   --icon-border: transparent;
-  --icon-border-hover: #953de64d;
+  --icon-border-hover: var(--primary);
   --icon-border-radius: 4px;
   --icon-sidebar-width: 360px;
   --icon-Sidebar-height: 0;
   --icon-Sidebar-bg: #fff;
   --icon-Sidebar-offset: rgba(40, 50, 98, 0.4);
   --icon-Sidebar-box-shaddow: none;
-  --heading: #574c61;
-  --content: #555;
-  --link: #3f3f3f
 }
 
 // .icon_icon__W6B1y:hover {

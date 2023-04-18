@@ -12,7 +12,7 @@ export const Icons = () => {
   }
 
   return (
-    <div className="container">
+    <main className="container">
       {!searchTerm ? 
         iconCat.map((iconsWithCategory, key) => (
           <section key={key}>
@@ -22,7 +22,7 @@ export const Icons = () => {
       : <section>
           <IconGrid category={searchIcon()} />
         </section>}
-    </div>
+    </main>
   )
 }
 

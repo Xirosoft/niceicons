@@ -44,7 +44,7 @@ const Sidebar = () => {
     setTimeout(() => setIsCopy(''), 1000);
   }
 
-  const websiteUrl = 'http://localhost'
+  const websiteUrl = 'https://icon.initialsolution.xyz'
   let { protocol, hostname } = new URL(websiteUrl)
   const url = `${protocol}//${hostname}`
 

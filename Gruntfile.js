@@ -4,7 +4,7 @@ module.exports = function(grunt) {
     webfont: {
       icons: {
         src: 'icons/src/**/*.svg',
-        dest: 'public/font',
+        dest: 'public/icon/fonts',
         destCss: 'src/styles/',
         version: '0.001',
         options: {

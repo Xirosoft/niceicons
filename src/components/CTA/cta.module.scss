@@ -2,7 +2,7 @@
 
 .cta {
   // max-width: 1024px;
-  margin: clamp(32px, 2.5vw, 50px) auto;
+  margin-bottom: clamp(32px, 2.5vw, 50px);
   &__item {
     display: flex;
     justify-content: space-between;
@@ -10,6 +10,7 @@
     align-items: stretch;
     padding: clamp(32px, 2.5vw, 50px);
     border-radius: 20px;
+    background-color: #fff;
     box-shadow: 0 0 16px rgba(#000, 0.1);
     margin: 16px;
     @include respond(phone) {
@@ -20,9 +21,6 @@
       flex-direction: column;
       align-items: flex-start;
     }
-    // @include respond(phone) {
-    //   padding-bottom: 50px;
-    // }
   }
   &__content {
     flex: 1;
@@ -68,7 +66,7 @@
       font-size: 15px;
     }
     &:hover {
-      background-color: darken(#953de6, 10);
+      background-color: darken(#47be7d, 10);
     }
   }
 

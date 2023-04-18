@@ -1,39 +1,27 @@
 @use '../../styles/media-query' as *;
 
 .footer {
-  padding: clamp(50px, 6vw, 100px) 0 0;
+  padding-top: clamp(36px, 3vw, 56px);
   background-color: rgb(4, 4, 4);
   color: #fff;
   &__inner {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    justify-content: space-around;
-    gap: 20px;
-    @include respond(tabland) {
-      grid-template-columns: repeat(4, 1fr);
-    }
-    @include respond(tabport) {
-      grid-template-columns: repeat(2, 1fr);
-    }
-    @include respond(phone-mid) {
-      grid-template-columns: repeat(1, 1fr);
-    }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
   }
   &__copyright {
-    margin-top: clamp(50px, 6vw, 100px);
+    // margin-top: clamp(50px, 6vw, 100px);
     padding: 16px 0;
     text-align: center;
     font-size: 13px;
     color:rgb(153, 153, 153);
     border-top: 1px solid #ffffff19;
-    a {
-      color: aqua;
-    }
   }
 }
 
 .widget {
-  margin-bottom: 36px;
+  margin-bottom: 32px;
   font-size: 14px;
   line-height: 1.5;
   color: #999999;
@@ -49,14 +37,21 @@
   }
   &__title {
     font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    margin-bottom: 16px;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 12px;
     text-transform: uppercase;
     letter-spacing: 0.1em;
+    opacity: 0.7;
+    text-align: center;
   }
   &__list {
     list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0 20px;
     a {
       font-size: 13px;
       color: #999999;

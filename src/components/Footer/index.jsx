@@ -6,20 +6,14 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className="container">
         <div className={styles.footer__inner}>
-          <Widget 
-            title="About Xiroicon"
-          >
+          {/* <Widget title="About Xiroicon">
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, esse! Lorem ipsum dolor, sit amet consectetur adipisicing elit Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
-            
-          </Widget>
+          </Widget> */}
           <Widget 
             title="Important Links"
             link = {[
               {title: 'About Us', url: '/about'},
-              {title: 'What\'s New', url: 'https://xirosoft.com'},
-              {title: 'Github', url: 'https://google.com'},
-              {title: 'Facebook', url: 'https://google.com'},
-              {title: 'Twitter', url: 'https://google.com'},
+              {title: 'What\'s New', url: 'https://xirosoft.com'}
             ]}
           />
           <Widget 
@@ -27,6 +21,7 @@ const Footer = () => {
             link = {[
               {title: 'Themeies', url: 'https://themeies.com'},
               {title: 'Xiroblock', url: 'https://xirosoft.com'},
+              {title: 'Xirosoft', url: 'https://xirosoft.com'},
               {title: 'Initial Solutions', url: 'https://initialsolutions.com'}
             ]}
           />

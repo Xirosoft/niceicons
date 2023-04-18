@@ -16,8 +16,8 @@ const Header = props => {
           </div>
           <div className={style.nav__meta}>
             <Link className={style.nav__meta__btn} href="#"><i className="xiroicon xi-activity"></i></Link>
-            <Link className={style.nav__meta__btn} href="#"><i className="xiroicon xi-chainlink-link"></i></Link>
-            <Link className={style.nav__meta__btn} href="#"><i className="xiroicon xi-arrow-down"></i></Link>
+            <Link className={style.nav__meta__btn} href="https://github.com/xirosoft/xiroicon" target='_blank'><i className="xiroicon xi-chainlink-link"></i></Link>
+            <Link className={style.nav__meta__btn} href="/icon/xiroicon.zip"><i className="xiroicon xi-arrow-down"></i></Link>
           </div>
         </div>
       </nav>

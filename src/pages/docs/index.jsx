@@ -1,5 +1,8 @@
-import Layout from '@/components/Layout'
+import Link from 'next/link' 
+import Layout, { DocsLayout } from '@/components/Layouts'
 import Hero from '@/components/Hero'
+import CodeBlock from '@/components/CodeBlock'
+
 
 import hero from '@/components/Hero/hero.module.scss'
 
@@ -11,13 +14,22 @@ export default function Docs(props) {
       </Hero>
 
       <div className="page-content container">
-        <h1>Hello Title</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores culpa error rerum harum rem sapiente doloribus vitae, iusto qui quia sed incidunt accusantium laboriosam quaerat voluptate itaque excepturi quasi ducimus perspiciatis nam. Laboriosam vero, amet, neque nobis sit distinctio eaque fuga sapiente temporibus similique maiores dolore ipsa, consequatur dolorum dolorem!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores culpa error rerum harum rem sapiente doloribus vitae, iusto qui quia sed incidunt accusantium laboriosam quaerat voluptate itaque excepturi quasi ducimus perspiciatis nam. Laboriosam vero, amet, neque nobis sit distinctio eaque fuga sapiente temporibus similique maiores dolore ipsa, consequatur dolorum dolorem!
-        </p>
+        <DocsLayout>
+          <h2>Web</h2>
+          <p>
+            To use the icon package in your website, just add our <strong>CDN</strong>
+          </p>
+          <CodeBlock>{`<link rel="styleheet" href="http://localhost/icon/xiroicon.min.css" />`}</CodeBlock>
+          and uses your favorit icon
+          <CodeBlock>{`<i class="xiroicon xi-add"></i>`}</CodeBlock>
+          <br />
+          
+          <h2>Photoshop / Illustrator / Figma (Others)</h2>
+          <p>First, <Link href="/icon/xiroicon.zip">Download</Link> and install the font in your system. <br/>
+            just copy the following icon by click <strong>Copy Icon</strong> button in sidebar.
+          </p>
+          <br />        
+        </DocsLayout>
       </div>
       
     </Layout>

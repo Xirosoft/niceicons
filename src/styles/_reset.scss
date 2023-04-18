@@ -7,7 +7,7 @@ html {
   font-size: 100%;
 }
 body {
-  font-family: 'Proza Libre', sans-serif;
+  font-family: var(--montserrat);
   background-color: var(--body-bg);
   ::-webkit-scrollbar {
     width: 0px;
@@ -51,6 +51,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: var(--proza);
   font-weight: 600;
 }
 
@@ -70,10 +71,12 @@ figure {
 section {
   display: block;
   position: relative;
-  padding: 25px 0;
+  margin: 25px 0;
   width: 100%;
 }
 
-.main {
+main {
   overflow: hidden;
+  margin-top: calc(clamp(32px, 2.5vw, 50px) - 20px) !important;
+  margin-bottom: calc(clamp(32px, 2.5vw, 50px) - 20px) !important;
 }
