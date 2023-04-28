@@ -2,6 +2,8 @@ import Link from 'next/link'
 import { useInView } from 'react-intersection-observer'
 import Search from '@/components/Search' 
 
+import logo from './logo.png'
+
 import style from "./header.module.scss"
 
 const Header = props => {
@@ -10,7 +12,7 @@ const Header = props => {
     <header className={style.header}>
       <nav className={style.nav} ref={ref}>
         <div className={`${style.nav__inner} ${!inView ? style.nav__inner__sticky: ''}`}>
-          <Link className={style.nav__brand} href="/"><img src="/logo.png" width={150} height={35} alt='logo' /></Link>
+          <Link className={style.nav__brand} href="/"><img src={logo.src} width={150} height={35} alt='logo' /></Link>
           <div className={style.nav__search}>
             <Search />
           </div>

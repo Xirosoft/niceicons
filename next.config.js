@@ -1,7 +1,6 @@
-const pkg = require('./package.json')
 const isGithubActions = process.env.GITHUB_ACTIONS || false
 
-let assetPrefix = '', basePath = '', repo = pkg.name
+let assetPrefix = '', basePath = ''
 
 if (isGithubActions) {
   // trim off `<owner>/`
@@ -9,8 +8,6 @@ if (isGithubActions) {
   assetPrefix = `/${repo}/`
   basePath = `/${repo}`
 }
-assetPrefix = `/${repo}/`
-basePath = `/${repo}`
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
