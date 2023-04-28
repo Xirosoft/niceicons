@@ -19,11 +19,10 @@ jobs:
         with:
           node-version: 'lts/*'
           cache: 'npm'
-        run: |
-          sudo npm i -g pnpm
 
       - name: Build
         run: |
+          sudo npm i -g pnpm
           pnpm install
           pnpm build
           pnpm export
