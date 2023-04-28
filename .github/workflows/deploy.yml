@@ -19,12 +19,14 @@ jobs:
         with:
           node-version: 'lts/*'
           cache: 'npm'
+        run: |
+          sudo npm i -g pnpm
 
       - name: Build
         run: |
-          npm i
-          npm run build
-          npm run export
+          pnpm install
+          pnpm build
+          pnpm export
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
