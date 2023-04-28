@@ -12,23 +12,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
-
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 'lts/*'
-          cache: 'npm'
-
-      - name: Build
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Install dependencies
         run: |
           sudo npm i -g pnpm
           pnpm install
+      - name: Build
+        run: |
           pnpm build
           pnpm export
-
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./out
