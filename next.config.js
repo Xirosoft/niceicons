@@ -8,6 +8,8 @@ if (isGithubActions) {
   assetPrefix = `/${repo}/`
   basePath = `/${repo}`
 }
+assetPrefix = `/${repo}/`
+basePath = `/${repo}`
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
