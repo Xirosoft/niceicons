@@ -65,7 +65,7 @@ const Sidebar = () => {
             className={style.sidebar__header__closeBtn}
             onClick={() => setIconSidebar({ open: false, icon: 'add' })}
           >
-            <i className="xiroicon xi-add rotate-45"></i>
+            <i className="xiroicon xi-close"></i>
           </button>
         </div>
         <div className={style.sidebar__body}>

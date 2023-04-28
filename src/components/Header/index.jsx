@@ -45,7 +45,7 @@ const Header = props => {
               darkMood ? <i className="xiroicon xi-sun-1"></i> : <i className="xiroicon xi-moon"></i>
             }
             </button>
-            <Link className={style.nav__meta__btn} href="https://github.com/xirosoft/xiroicon" target='_blank'><i className="xiroicon xi-chainlink-link"></i></Link>
+            <Link className={style.nav__meta__btn} href="https://github.com/xirosoft/xiroicon" target='_blank'><i className="xiroicon xi-github"></i></Link>
             <Link className={style.nav__meta__btn} href="/icon/xiroicon.zip"><i className="xiroicon xi-arrow-down"></i></Link>
           </div>
         </div>
