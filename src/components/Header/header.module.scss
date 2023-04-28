@@ -27,17 +27,20 @@
       justify-content: center;
       align-items: center;
       color: var(--primary);
+      border: 0;
       border-radius: 4px;
       background-color: rgba(#000, 0);
       font-size: 20px;
       transition: background-color 300ms ease-in-out;
+      cursor: pointer;
       @include respond(phone) {
         width: 36px;
         font-size: 18px;
         aspect-ratio: 1.15/1;
       }
       &:hover {
-        background-color: rgba(63,66,84,0.1);
+        // background-color: rgba(63,66,84,0.1);
+        background-color: var(--body-bg);
       }
     }
   }

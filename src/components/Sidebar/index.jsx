@@ -44,9 +44,10 @@ const Sidebar = () => {
     setTimeout(() => setIsCopy(''), 1000);
   }
 
-  const websiteUrl = 'https://icon.initialsolution.xyz'
+  const websiteUrl = 'https://xirosoft.github.io/xiroicon'
   let { protocol, hostname } = new URL(websiteUrl)
-  const url = `${protocol}//${hostname}`
+  // const url = `${protocol}//${hostname}`
+  const url = websiteUrl
 
   return (
     <div
@@ -84,10 +85,10 @@ const Sidebar = () => {
             <h4 className="form-title">How to use CDN?</h4>
             <Tabs>
               <Tab label='<link>'>
-                <CodeBlock language='html'>{`<link rel="styleheet" href="${url}/font/xiroicon.min.css" />`}</CodeBlock>
+                <CodeBlock language='html'>{`<link rel="styleheet" href="${url}/icon/xiroicon.min.css" />`}</CodeBlock>
               </Tab>
               <Tab label='@import'>
-                <CodeBlock language='css'>{`@import url('${url}/font/xiroicon.min.css');`}</CodeBlock>
+                <CodeBlock language='css'>{`@import url('${url}/icon/xiroicon.min.css');`}</CodeBlock>
               </Tab>
             </Tabs>
           </div>

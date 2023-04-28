@@ -5,7 +5,7 @@ module.exports = function(grunt) {
       icons: {
         src: 'icons/src/**/*.svg',
         dest: 'public/icon/fonts',
-        destCss: 'src/styles/',
+        destCss: 'src/styles',
         version: '0.001',
         options: {
           font: 'xiroicon',
@@ -16,10 +16,10 @@ module.exports = function(grunt) {
           ligatures: true,
           stylesheet: 'scss',
           syntex: 'bootstrap',
-          htmlDemo: true,
+          htmlDemo: false,
           normalize: true,
           hashes: false,
-          optimize: false,
+          optimize: true,
           codepointsFile: 'src/data/codepoints.json',
           templateOptions: {
             baseClass: 'xiroicon',

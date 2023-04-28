@@ -5,6 +5,7 @@
   --montserrat: 'Montserrat', sans-serif;
 
   --primary: #47be7d;
+  --secondary: #3f4254;
   --header-bg: #fff;
   --header-sticky-bg: #47be7d;
   --body-bg: #F8F9FB;
@@ -13,6 +14,7 @@
   --content: #8491A5;
   --link: #3f3f3f;
   --code-bg: #f2f5f9;
+  --code-bg-hover: #ebeff7;
   // icons
   --icon-width: 100px;
   --icon-size: 32px;
@@ -28,6 +30,38 @@
   --icon-Sidebar-bg: #fff;
   --icon-Sidebar-offset: rgba(40, 50, 98, 0.4);
   --icon-Sidebar-box-shaddow: none;
+  --icon-Sidebar-color: #000000;
+}
+
+
+[theme="dark"] {
+  --primary: #47be7d;
+  --secondary: #3f4254;
+  --header-bg: #1d1e25;
+  --header-sticky-bg: #47be7d;
+  --body-bg: rgb(51, 53, 66);
+  --heading: #fff;
+  // --heading2: #47be7d;
+  --content: #cbd2df;
+  --link: #3f3f3f;
+  --code-bg: #3f4254;
+  --code-bg-hover: #292c3a;
+  // icons
+  --icon-width: 100px;
+  --icon-size: 32px;
+  --icon-color: #8491A5;
+  --icon-title-color: var(--content);
+  --icon-bg: #1d1e25;
+  --icon-bg-hover: #47be7d;
+  --icon-border: transparent;
+  --icon-border-hover: var(--primary);
+  --icon-border-radius: 4px;
+  --icon-sidebar-width: 360px;
+  --icon-Sidebar-height: 0;
+  --icon-Sidebar-bg: #1d1e25;
+  --icon-Sidebar-offset: rgba(40, 50, 98, 0.4);
+  --icon-Sidebar-box-shaddow: none;
+  --icon-Sidebar-color: #ffffff;
 }
 
 // .icon_icon__W6B1y:hover {

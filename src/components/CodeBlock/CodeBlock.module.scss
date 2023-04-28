@@ -11,7 +11,7 @@
   border-radius: 4px;
   transition: all 360ms ease-in-out;
   &:hover {
-    background-color: #ebeff7;
+    background-color: var(--code-bg-hover);
   }
   &__content {
     white-space: break-spaces;

@@ -10,7 +10,8 @@
     align-items: stretch;
     padding: clamp(32px, 2.5vw, 50px);
     border-radius: 20px;
-    background-color: #fff;
+    background-color: var(--header-bg);
+    color: var(--content);
     box-shadow: 0 0 16px rgba(#000, 0.1);
     margin: 16px;
     @include respond(phone) {
