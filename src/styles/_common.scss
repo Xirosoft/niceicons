@@ -27,11 +27,19 @@ a {
     margin-bottom: 16px;
   }
   p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.75;
     color: var(--content);
     margin-bottom: 16px;
   }
+}
+kbd {
+  padding: 4px 5px;
+  background-color: var(--heading);
+  color: var(--body-bg);
+  font-size: 16px;
+  margin: 0 4px;
+  border-radius: 4px;
 }
 
 .form-group {
