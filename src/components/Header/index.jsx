@@ -46,7 +46,8 @@ const Header = props => {
             }
             </button>
             <Link className={style.nav__meta__btn} href="https://github.com/xirosoft/xiroicon" target='_blank'><i className="xiroicon xi-github"></i></Link>
-            <Link className={style.nav__meta__btn} href="/icon/xiroicon.zip"><i className="xiroicon xi-arrow-down"></i></Link>
+            {/* <Link className={style.nav__meta__btn} href="/icon/xiroicon.zip"><i className="xiroicon xi-arrow-down"></i></Link> */}
+            <Link className={style.nav__meta__btn} href="https://github.com/Xirosoft/xiroicon/archive/refs/tags/v0.1.0.zip"><i className="xiroicon xi-arrow-down"></i></Link>
           </div>
         </div>
       </nav>

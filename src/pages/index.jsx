@@ -13,7 +13,7 @@ export default function Home(props) {
         <h1 className={hero.head}>Using Xiroicon to visualize the better interfaces</h1>
         <p className={hero.desc}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui repellat, adipisci molestias</p>
         <div className={hero.btnset}>
-          <Link href="/icon/xiroicon.zip" className={hero.btn}>Download</Link>
+          <Link href="https://github.com/Xirosoft/xiroicon/archive/refs/tags/v0.1.0.zip" className={hero.btn}>Download</Link>
           <Link href="/docs" className={hero.btn}>Get Started</Link>
         </div>
       </Hero>
