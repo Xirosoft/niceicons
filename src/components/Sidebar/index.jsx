@@ -75,8 +75,8 @@ const Sidebar = () => {
               <CodeBlock>{ `<span class="xiroicon">\n\t${iconData.name}\n</span>`}</CodeBlock>
             </Tab>
             <Tab label='CSS Pseudo'>
-              <CodeBlock language='css'>{`&::after {\n\tcontent: '${iconData.name}';\n\tfont-family: 'xiroicon';\n}`}</CodeBlock>
-              <CodeBlock language='css'>{`&::after {\n\tcontent: '\\${hex}';\n\tfont-family: 'xiroicon';\n}`}</CodeBlock>
+              <CodeBlock language='css'>{`::after {\n\tcontent: '${iconData.name}';\n\tfont-family: 'xiroicon';\n}`}</CodeBlock>
+              <CodeBlock language='css'>{`::after {\n\tcontent: '\\${hex}';\n\tfont-family: 'xiroicon';\n}`}</CodeBlock>
             </Tab>
           </Tabs>
 

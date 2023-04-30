@@ -16,7 +16,7 @@ const CodeBlock = ({language = 'html', children}) => {
     document.body.removeChild(dummy);
     
     setIsCopy(true)
-    setTimeout(() => setIsCopy(false), 300);
+    setTimeout(() => setIsCopy(false), 1000);
   }
 
   return (
@@ -31,7 +31,7 @@ const CodeBlock = ({language = 'html', children}) => {
           onClick={() => codeCopy(children)}>
           {
             isCopy
-            ?  <i className="xiroicon xi-add"></i>
+            ?  <i className="xiroicon xi-checked"></i>
             : <i className="xiroicon xi-copy"></i>
           }
           </button>

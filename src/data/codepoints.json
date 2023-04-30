@@ -3096,5 +3096,7 @@
     "unicast": 64791,
     "vertical-timeline": 64792,
     "viencharts": 64793,
-    "file-txt": 64794
+    "file-txt": 64794,
+    "checkbox": 64795,
+    "checked": 64796
 }

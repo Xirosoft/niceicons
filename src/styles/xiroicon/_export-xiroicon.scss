@@ -14,9 +14,7 @@
 
 .xiroicon,
 .ligature-icons {
-	
-		font-family:"xiroicon";
-	
+	font-family:"xiroicon";
 	display:inline-block;
 	line-height:1;
 	font-weight:normal;
@@ -2235,6 +2233,16 @@
 
 .xi-chart:before {
 	content:"chart";
+}
+
+
+.xi-checkbox:before {
+	content:"checkbox";
+}
+
+
+.xi-checked:before {
+	content:"checked";
 }
 
 
