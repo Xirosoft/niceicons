@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20230101 at Fri Apr 28 17:21:15 2023
+Created by FontForge 20230101 at Sun Apr 30 12:57:22 2023
  By Macbook pro
 </metadata>
 <defs>
@@ -18,7 +18,7 @@ Created by FontForge 20230101 at Fri Apr 28 17:21:15 2023
     bbox="-1.26087 -59 502 443"
     underline-thickness="25"
     underline-position="-50"
-    unicode-range="U+002D-F6DB"
+    unicode-range="U+002D-FD1C"
   />
 <missing-glyph horiz-adv-x="187" 
 d="M17 0v341h136v-341h-136zM34 17h102v307h-102v-307z" />
@@ -4273,6 +4273,11 @@ d="M316 320q-19 28 -60 20q-26 -5 -38 -26q-11 -20 -11 -52q0 -9 -6.5 -15t-15.5 -6q
 M34 363q13 1 20 -9q43 -63 111 -70q4 30 16 52q22 37 66 46q58 11 95 -26l38 7q13 2 21 -9t2 -23l-37 -64q5 -136 -78 -203q-42 -35 -117 -41q-73 -7 -150 16q-16 4 -16 20t16 21q44 12 64 25q-37 19 -58 51q-24 37 -27 88q-1 35 7 74q5 19 10 31q4 13 17 14z" />
     <glyph glyph-name="close" unicode="close" horiz-adv-x="213" 
 d="M27 294q-7 7 -17 3t-10 -14q0 -7 5 -12l181 -181q7 -7 17 -3t10 15q0 6 -5 11zM5 113q-8 -8 -4 -17.5t15 -9.5q7 0 11 4l181 181q8 8 4 18t-15 10q-7 0 -11 -5z" />
+    <glyph glyph-name="checkbox" unicode="checkbox" horiz-adv-x="416" arabic-form="final" 
+d="M92 212q-8 7 -18 3t-10 -14q0 -7 5 -12l75 -78q11 -11 27 -11t27 11l150 155q7 8 3 17.5t-15 9.5q-7 0 -11 -5l-150 -154q-4 -4 -8 0zM0 341q0 -318 1 -325q3 -26 26 -30q8 -2 32 -2q318 0 325 1q26 3 30 26q2 8 2 32q0 318 -1 325q-3 26 -26 30q-8 2 -32 2
+q-318 0 -324 -1q-27 -3 -31 -26q-2 -8 -2 -32zM32 43q0 317 1 324q8 1 324 1q19 0 26 -1q1 -8 1 -324q0 -19 -1 -26q-8 -1 -324 -1q-19 0 -26 1q-1 8 -1 26z" />
+    <glyph glyph-name="checked" unicode="checked" horiz-adv-x="373" arabic-form="final" 
+d="M27 214q-7 8 -17 3.5t-10 -14.5q0 -7 5 -12l106 -103q11 -10 26 -10t26 10l205 199q8 8 4 18t-15 10q-6 0 -11 -5l-205 -199q-4 -3 -8 0z" />
     <glyph glyph-name=".notdef" horiz-adv-x="187" 
 d="M17 0v341h136v-341h-136zM34 17h102v307h-102v-307z" />
     <glyph glyph-name=".null" horiz-adv-x="0" 

@@ -1785,6 +1785,14 @@
   content: "chart"
 }
 
+.xi-checkbox:before {
+  content: "checkbox"
+}
+
+.xi-checked:before {
+  content: "checked"
+}
+
 .xi-chrome:before {
   content: "chrome"
 }
