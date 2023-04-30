@@ -51,7 +51,7 @@ export default function Docs(props) {
           <br/>
           <br/>
           <h4>Photoshop / Illustrator / Figma (Others)</h4>
-          <p>First, <Link href="https://xirosoft.github.io/xiroicon/icon/xiroicon.zip">Download</Link> and install the font in your system. <br/>
+          <p>First, <Link href="https://github.com/Xirosoft/xiroicon/archive/refs/tags/v0.1.0.zip">Download</Link> and install the font in your system. <br/>
             just copy the following icon by click <strong>Copy Icon</strong> button in sidebar.
           </p>
           <br />        

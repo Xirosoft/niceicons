@@ -80,24 +80,26 @@ const Sidebar = () => {
             </Tab>
           </Tabs>
 
+          <Tabs>
+            <Tab label='Codepoint'>
+              <CodeBlock language='html'>{hex}</CodeBlock>
+            </Tab>
+            <Tab label='HTML Entity'>
+              <CodeBlock language='html'>&#x{hex};</CodeBlock>
+            </Tab>
+          </Tabs>
+
 
           <div className='form-group'>
             <h4 className="form-title">How to use CDN?</h4>
             <Tabs>
               <Tab label='<link>'>
-                <CodeBlock language='html'>{`<link rel="styleheet" href="${url}/icon/xiroicon.min.css" />`}</CodeBlock>
+                <CodeBlock language='html'>{`<link rel="stylesheet" href="${url}/icon/xiroicon.min.css" >`}</CodeBlock>
               </Tab>
               <Tab label='@import'>
                 <CodeBlock language='css'>{`@import url('${url}/icon/xiroicon.min.css');`}</CodeBlock>
               </Tab>
             </Tabs>
-          </div>
-
-          <div className='form-group'>
-            {/* <h4 className="form-title">Use as SVG Sprite</h4>
-            <CodeBlock language='html'>{`<img src="https://xirosoft.com/icon/bee/icons.svg#${iconData.name}" />`}</CodeBlock> */}
-            <h4 className="form-title">Codepoint</h4>
-            <CodeBlock language='html'>{hex}</CodeBlock>
           </div>
           
           <div className='form-group'>

@@ -1,6 +1,6 @@
 ---
 name: Icon request
-about: Suggest a new icon for Remix Icons
+about: Suggest a new icon for XiroIcon
 title: ''
 labels: ''
 assignees: sofiquldev
