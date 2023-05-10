@@ -2,24 +2,25 @@
 
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/xirosoft/xiroicon/deploy.yml) &nbsp; ![GitHub package.json version](https://img.shields.io/github/package-json/v/xirosoft/xiroicon) &nbsp; ![GitHub all releases](https://img.shields.io/github/downloads/xirosoft/xiroicon/total)
 
-Xiroicon is a set of open-source icon package for designers and develoeprs. 
+Xiroicon icons: high-quality, customizable, and time-saving for seamless interface design.
 [![screenshot](./public/screenshot.jpeg)](https://xirosoft.github.io/xiroicon)
 Explore our full icon set at [https://xirosoft.github.io/xiroicon](https://xirosoft.github.io/xiroicon).
 
 ## Usage 
 ### Basic Usage
 
-Just click the icons you want from [https://xirosoft.github.io/xiroicon](https://xirosoft.github.io/xiroicon), and then you can download the icons in SVG or PNG format.
+Discover a new way to streamline your design process with Xiroicon, the open source icon package manager from Xirosoft. Simply visit [https://xirosoft.github.io/xiroicon](https://xirosoft.github.io/xiroicon) select the icons you need, and download them in SVG or PNG format.
+Need to use a vector graphic in your design? With the `Copy SVG` button, you can easily paste the graphic directly into your design tool using `⌘+V` or `Ctrl+V` difference it can make for your design process.
 
-Designers can click the `Copy SVG` button and then press `⌘+V` or `Ctrl+V` to paste the vector graphic into your design tool directly, easy and simple.
 
-> We recommend that designers download or copy icons from our website when needed instead of managing all of them in a local folder. The website's search engine allows you to quickly locate the icon you are looking for and the icons on the website are being continuously updated.
->
-> The `Copy Icon` now supports Sketch, Figma, Adobe XD, Adobe Illustrator, Affinity Designer, Affinity Photo, etc.
+> Simplify your design process with Xiroicon, the open source icon package manager that offers a better way to manage your icon sets. Our website provides a comprehensive library of continuously updated icons that are easy to search and download. We recommend downloading or copying icons from our website instead of storing them locally. With the `Copy Icon` feature, you can seamlessly paste icons into popular design tools like Sketch, Figma, Adobe XD, and more.
+> 
+> Streamline your design workflow with Xiroicon and take your work to the next level.
+> **Try it out today!**
 
 ### Webfont Usage
 
-> **Note:** You can import **Xiroicon** cdn or download it manually.
+> **Note:** You can import **Xiroicon** cdn or [download](https://github.com/Xirosoft/xiroicon/archive/refs/tags/v0.1.0.zip) it manually.
 
 #### CDN
 
@@ -41,6 +42,9 @@ Add icon with class name, class name rule: xiroicon xi-{name}
 <i class="xiroicon xi-arrow"></i>
 <i class="xiroicon xi-arrow-left"></i>
 ```
+
+## Conclusion
+[Xirosoft](https://xirosoft.com) is the perfect solution for designers and developers looking for a simple, streamlined way to manage their icon sets. Our open source icon package manager offers a comprehensive library of continuously updated icons that are easy to search and download, making it easy to find the perfect icon for your project. With the Copy Icon feature, you can easily paste icons into popular design tools like Sketch, Figma, Adobe XD, and more. Xiroicon is designed to simplify your design process and help you achieve your creative vision with ease. So why wait? Try Xiroicon today and see how it can transform your design workflow.
 
 
 ## Contributing
