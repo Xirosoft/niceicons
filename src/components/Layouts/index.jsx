@@ -19,21 +19,21 @@ const Layout = (props) => {
       <meta name="google-site-verification" content="MrSvjOpmKwfQ2a_aSjtvzGgBLqtuK1dtAFA-MIw24GA" />
 
       {/* Primary Meta Tags */}
-      <meta name="title" content="Xiroicon - Enhancing Interface Design With Xiroicon<" />
+      <meta name="title" content="Xiroicon - Enhancing Interface Design With Xiroicon" />
       <meta name="url" content="https://xirosoft.github.io/xiroicon/" />
       <meta name="description" content="Xiroicon icons: high-quality, customizable, and time-saving for seamless interface design." />
 
       {/* Open Graph / Facebook */}
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://xirosoft.github.io/xiroicon/" />
-      <meta property="og:title" content="Xiroicon - Enhancing Interface Design With Xiroicon<" />
+      <meta property="og:title" content="Xiroicon - Enhancing Interface Design With Xiroicon" />
       <meta property="og:description" content="Xiroicon icons: high-quality, customizable, and time-saving for seamless interface design." />
       <meta property="og:image" content="https://xirosoft.github.io/xiroicon/screenshot.jpeg" />
 
       {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://xirosoft.github.io/xiroicon/" />
-      <meta property="twitter:title" content="Xiroicon - Enhancing Interface Design With Xiroicon<" />
+      <meta property="twitter:title" content="Xiroicon - Enhancing Interface Design With Xiroicon" />
       <meta property="twitter:description" content="Xiroicon icons: high-quality, customizable, and time-saving for seamless interface design." />
       <meta property="twitter:image" content="https://xirosoft.github.io/xiroicon/screenshot.jpeg" />
 
