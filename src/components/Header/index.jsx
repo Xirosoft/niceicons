@@ -12,7 +12,8 @@ const Header = props => {
   const { darkMood, setDarkMood } = useStore()
 
   useEffect(() => {
-    if(darkMood === undefined) {
+    document.body.setAttribute('theme', 'light')
+    /* if(darkMood === undefined) {
       if (typeof window !== 'undefined') {
         if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
           setDarkMood(true);
@@ -22,12 +23,12 @@ const Header = props => {
           document.body.setAttribute('theme', 'light')
         }
       }
-    }
+    } */
   }, []);
   
   const themeToggler = () => {
+    setDarkMood(!darkMood)
     document.body.setAttribute('theme', darkMood ? 'dark': 'light')
-    darkMood === undefined ? setDarkMood(true) : setDarkMood(!darkMood)
   }
 
   const { ref, inView, entry } = useInView()

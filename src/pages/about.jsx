@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Layout, { DocsLayout } from '@/components/Layouts'
 import Hero from '@/components/Hero'
 
@@ -12,12 +13,21 @@ export default function About(props) {
 
       <div className="page-content container">
         <DocsLayout>
-          <h1>About Xiroicon</h1>
+          <h1>About <strong>Xiroicon</strong></h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores culpa error rerum harum rem sapiente doloribus vitae, iusto qui quia sed incidunt accusantium laboriosam quaerat voluptate itaque excepturi quasi ducimus perspiciatis nam. Laboriosam vero, amet, neque nobis sit distinctio eaque fuga sapiente temporibus similique maiores dolore ipsa, consequatur dolorum dolorem!
+            <Link href="https://xirosoft.com" target="_blank">Xirosoft</Link> is a team of passionate software developers and designers dedicated to building innovative tools for the design community. Our flagship product, <strong>Xiroicon</strong>, is an open source icon package manager that provides a comprehensive icon library and an easy-to-use platform for managing icon sets.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores culpa error rerum harum rem sapiente doloribus vitae, iusto qui quia sed incidunt accusantium laboriosam quaerat voluptate itaque excepturi quasi ducimus perspiciatis nam. Laboriosam vero, amet, neque nobis sit distinctio eaque fuga sapiente temporibus similique maiores dolore ipsa, consequatur dolorum dolorem!
+            At <Link href="https://xirosoft.com" target="_blank">Xirosoft</Link>, we believe that great design should be accessible to everyone, and we're proud to contribute to the design community by offering <strong>Xiroicon</strong> as a free and open source tool. Our team is committed to empowering designers to do their best work by providing high-quality software solutions that enhance their workflow and creativity.
+          </p>
+          <p>
+            We're passionate about what we do, and we strive to create a supportive and collaborative environment where our team can thrive. As the managers of <strong>Xiroicon</strong>, we're dedicated to constantly improving the platform and developing new products that make the design process more efficient and enjoyable.
+          </p>
+          <p>
+            Our team is committed to transparency, open communication, and fostering a culture of learning and growth. We believe that by working together with the design community, we can build a better future for design and make it more accessible to everyone.
+          </p>
+          <p>
+            Thank you for choosing <strong>Xiroicon</strong> as your design partner. We're excited to continue building innovative tools and solutions that make design more accessible and enjoyable for everyone.
           </p>
         </DocsLayout>
       </div>

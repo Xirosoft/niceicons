@@ -111,8 +111,8 @@ const Sidebar = () => {
 
         </div>
         <div className={style.sidebar__footer}>
-          <button type="button" onClick={() => copyIcon( null, 'download')} className={`${style.sidebar__footer__btn} ${isCopy === 'download' ? style.code__copied : ''}`}>Download SVG</button>
-          <button type="button" onClick={() => copyIcon(null, 'svg')} className={`${style.sidebar__footer__btn} ${isCopy === 'svg' ? style.code__copied : ''}`}>Copy SVG</button>
+          <button type="button" onClick={() => copyIcon( null, 'download')} className={`${style.sidebar__footer__btn} ${isCopy === 'download' ? style.code__copied : ''}`} disabled>Download SVG</button>
+          <button type="button" onClick={() => copyIcon(null, 'svg')} className={`${style.sidebar__footer__btn} ${isCopy === 'svg' ? style.code__copied : ''}`} disabled>Copy SVG</button>
           <button type="button" onClick={() => copyIcon(glyph, 'glyph')} className={`${style.sidebar__footer__btn} ${isCopy === 'glyph' ? style.code__copied : ''}`}>Copy Icon</button>
         </div>
       </div>

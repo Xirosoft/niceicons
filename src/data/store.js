@@ -6,7 +6,7 @@ const useStore = create((set) => {
   const iconObject = Object.entries(jsonData).map(([name, codepoint]) => ({name, codepoint}));
   const iconCatObject = Object.entries(fileTree).map(([title, icons]) => ({title, icons}));
   return ({
-    darkMood: undefined,
+    darkMood: true,
     setDarkMood: props => set(() => ({darkMood: props})),
     icons: iconObject,
     iconCat: iconCatObject,

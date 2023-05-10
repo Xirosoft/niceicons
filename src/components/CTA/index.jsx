@@ -31,11 +31,11 @@ const CTA = props => {
                 <h4 className={style.cta__subhead}>Welcome!</h4>
                 
                 <h2 className={style.cta__head}>
-                  We lead the world technology
+                Join our tech team <br/> and innovate with us!
                 </h2>
                 
                 <p className={style.cta__desc}>
-                  to know detaily, please visit our official website to know detaily, please visit our official website.
+                Experience the cutting edge of technology with our innovative team.
                 </p>
                 
                 <div className={style.cta__btns}>
