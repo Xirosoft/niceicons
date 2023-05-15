@@ -27,7 +27,7 @@ Need to use a vector graphic in your design? With the `Copy SVG` button, you can
 Copy the following code and add it to the &lt;head&gt; tag of your html document.
 
 ```html
-<link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://xirosoft.github.io/xiroicon/icon/xiroicon.min.css" >
 ```
 
 #### Download Manually
