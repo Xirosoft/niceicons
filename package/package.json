@@ -1,0 +1,32 @@
+{
+  "name": "xiroicon",
+  "version": "0.0.1",
+  "description": "Xiroicon icons: high-quality, customizable, and time-saving for seamless interface design.",
+  "homepage": "https://xirosoft.github.io/xiroicon",
+  "main": "xiroicon.css",
+  "style": "xiroicon.css",
+  "keywords": [
+    "xiroicon",
+    "xirosoft",
+    "icon",
+    "icon package"
+  ],
+  "files": [
+    "fonts/",
+    "icons/",
+    "License",
+    "package.json",
+    "README.md"
+  ],
+  "license": "Apache 2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xirosoft/xiroicon.git"
+  },
+  "bugs": "https://github.com/Xirosoft/xiroicon/issues",
+  "contributors": [
+    "Shah Zobayer Ahmed <@speeedsam>",
+    "Sofiqul Islam <@sofiquldev>",
+    "Shakher Ahmmed <@bdsaiket>"
+  ]
+}
