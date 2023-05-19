@@ -40,7 +40,7 @@ export default function Docs(props) {
           <br/>
           <h3>NPM</h3>
           <p>Note: If you'd like to use Xiroicon with a CDN, you can skip this NPM (installation) step.</p>
-          <CodeBlock>{`npm install remixicon --save`}</CodeBlock>
+          <CodeBlock>{`npm install xiroicon --save`}</CodeBlock>
           <CodeBlock>{`import 'xiroicon/xiroicon.css'`}</CodeBlock>
           <p>import CSS to your main.js</p>
           <br/>

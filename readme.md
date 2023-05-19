@@ -26,7 +26,7 @@ Need to use a vector graphic in your design? With the `Copy SVG` button, you can
 Note: If you'd like to use Xiroicon with a CDN, you can skip this NPM (installation) step.
 
 ```bash
-npm install remixicon --save
+npm install xiroicon --save
 ```
 ```js
 import 'xiroicon/xiroicon.css'
