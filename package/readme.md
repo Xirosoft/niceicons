@@ -22,6 +22,17 @@ Need to use a vector graphic in your design? With the `Copy SVG` button, you can
 
 > **Note:** You can import **Xiroicon** cdn or [download](https://github.com/Xirosoft/xiroicon/archive/refs/tags/v0.1.0.zip) it manually.
 
+#### NPM
+Note: If you'd like to use Xiroicon with a CDN, you can skip this NPM (installation) step.
+
+```bash
+npm install xiroicon --save
+```
+```js
+import 'xiroicon/xiroicon.css'
+```
+import CSS to your main.js
+
 #### CDN
 
 Copy the following code and add it to the &lt;head&gt; tag of your html document.
