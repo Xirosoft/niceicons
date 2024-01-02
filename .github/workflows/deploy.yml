@@ -25,6 +25,8 @@ jobs:
           publish_dir: ./out
       - name: Move _next folder to /xiroicon/
         run: |
+          pwd
+          ls
           mkdir -p xiroicon
           mv _next xiroicon/
       - name: Deploy to www.niceicons.com
