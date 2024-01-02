@@ -25,7 +25,7 @@ jobs:
           publish_dir: ./out
       - name: Move _next folder to /xiroicon/
         run: |
-          mkdir -p /xiroicon
+          mkdir -p xiroicon
           mv ./_next ./xiroicon/
       - name: Deploy to www.niceicons.com
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
